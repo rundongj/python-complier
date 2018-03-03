@@ -1,0 +1,44 @@
+Name:Rundong Jiang
+
+Clemson Email Address:rundonj@clemson.edu
+
+Project no:5
+
+Project due date:12.7
+
+Project description:Python Functions, Scope & Decision
+
+The easiest part of this project:
+
+Problems that I had in completing this project:
+
+  I tried this projects two times, first I tried Dr.malloy's method. But I find when I want to do some complicate test, like the recursion, there will be some problems that I can't solve.
+  So I start over aganin and tried another method, I designed a symboltable class, which has a map, can both store,variables, function define nodes, function call nodes, and their names. and it has a pointer point at it upper table. Actually I think I can also call it scope table. 
+  And I have a symboltble table manager which can tell the AST nodes, which symbol table they belongs to.
+  My suite nodes will have a vector to store their AST structures. I have one eval() entrance, so the program can recursively top-down run and get the result.
+
+
+  I can pass the second test case, which you mentioned in the class, acctualy I think I have done the most job of closure. In the next project I'm sure I can retun a function.
+
+  I can also do the recursion, but for now since we don't have the parameters, it can't stop.
+
+  I haven't do the preprocessing, so I can't pass the first case which pengfei mentioned in the last course. But I think it will be easy in my structure.
+
+  Here are what I realized now.
+  1.if/else  
+  2.six relational operators 
+  3.BoolLitheral node 
+  4.NoneLitheral node
+  5.Functions 
+  6.Retun (and most of the closure)
+  7.most part of the recursion(endless recursion)
+
+  When I change to this method, I met several frustracting bugs, that's the  main reason of my delay. There is an intresting one in std::vector [] is not safe even if you just have one element in that vector you can also call [10], and there will be no warning. I tried after that call find() will also be wrong. After this I think I should learn more about STL, and maybe you can tell the next batch of . There is another bug that I still don't understand why, I guess it will also related to the implement of C++. But anyway I solve them all, there is no leak no warning in my program now.
+  
+  Finally, I have to say this is a very good project! Al through meet a lot of troubles, but I think  I learned a lot about the function, scope and closure. So it worth.
+
+
+
+
+
+ 
